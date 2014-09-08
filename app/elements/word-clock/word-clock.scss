@@ -1,3 +1,11 @@
 :host {
   display: block;
 }
+
+table#world-clock {
+  table-layout: fixed;
+}
+
+table#world-clock td {
+  width: 20px;
+}
