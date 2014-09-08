@@ -1,13 +1,10 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 
-<polymer-element name="clock-filler" attributes="">
+<polymer-element name="clock-filler" attributes="letter">
   <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
+    {{ letter }}
   </template>
+
   <script>
     (function () {
       'use strict';

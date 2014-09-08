@@ -1,18 +1,27 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 
 <polymer-element name="clock-word" attributes="word selected">
-  <template repeat="${{ letter in word }}">
-    <td class="${{ word }}">
-      ${{ letter }}
+  <template repeat="{{ letter in letters(word) }}">
+    <td class="{{ word }}">
+      {{ letter }}
     </td>
   </template>
+
   <script>
     (function () {
       'use strict';
 
       Polymer({
+        created: function() {},
         word: "",
-        selected: false
+        selected: false,
+        letters: function(word) {
+          if (!word) {
+            return [];
+          }
+
+          return String(word).split('');
+        }
       });
 
     })();
