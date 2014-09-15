@@ -11,6 +11,9 @@ table#world-clock {
 table#world-clock td {
   width: 20;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-stroke: 0.2em #fff;
 }
 
 .active {
