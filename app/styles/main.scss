@@ -1,34 +1,8 @@
 body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
 }
 
 .hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  font-family: 'Courier';
-  background-color: #555;
-  color: #444;
-  border-radius: 6px;
-  padding: 60px;
-}
-
-.hero-unit h1 {
-  font-size: 60px;
-  letter-spacing: -1px;
-}
-
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-#hero {
-  background-image: url('/images/oak.png');
-  background-size: 500px 500px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
 }
