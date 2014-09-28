@@ -5593,9 +5593,9 @@ naming: default grid - extended grid/package width</description>
 <part name="CW_OL" library="led" deviceset="LED" device="SMT1206"/>
 <part name="T_FIVE" library="led" deviceset="LED" device="SMT1206"/>
 <part name="CW_FE" library="led" deviceset="LED" device="SMT1206"/>
-<part name="LED22" library="led" deviceset="LED" device="SMT1206"/>
-<part name="LED23" library="led" deviceset="LED" device="SMT1206"/>
-<part name="LED24" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_TWELVE" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_SIX" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_FOUR" library="led" deviceset="LED" device="SMT1206"/>
 <part name="R1" library="resistor-power" deviceset="R" device="CA4050" value="220Ω"/>
 <part name="R2" library="resistor-power" deviceset="R" device="CA4050" value="220Ω"/>
 <part name="R3" library="resistor-power" deviceset="R" device="CA4050" value="220Ω"/>
@@ -5625,7 +5625,7 @@ naming: default grid - extended grid/package width</description>
 <part name="U3" library="SN74HC595N" deviceset="SN74HC595N" device=""/>
 <part name="PCB1" library="E14_Arduino_published" deviceset="ARDUINO_UNO" device=""/>
 <part name="C1" library="capacitor-wima" deviceset="C-" device="10-15/6"/>
-<part name="LED1" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_EIGHT" library="led" deviceset="LED" device="SMT1206"/>
 <part name="LED2" library="led" deviceset="LED" device="SMT1206"/>
 <part name="LED3" library="led" deviceset="LED" device="SMT1206"/>
 <part name="LED4" library="led" deviceset="LED" device="SMT1206"/>
@@ -5803,9 +5803,9 @@ naming: default grid - extended grid/package width</description>
 <instance part="CW_OL" gate="G$1" x="101.6" y="-93.98"/>
 <instance part="T_FIVE" gate="G$1" x="114.3" y="-93.98"/>
 <instance part="CW_FE" gate="G$1" x="127" y="-93.98"/>
-<instance part="LED22" gate="G$1" x="139.7" y="-93.98"/>
-<instance part="LED23" gate="G$1" x="152.4" y="-93.98"/>
-<instance part="LED24" gate="G$1" x="165.1" y="-93.98"/>
+<instance part="T_TWELVE" gate="G$1" x="139.7" y="-93.98"/>
+<instance part="T_SIX" gate="G$1" x="152.4" y="-93.98"/>
+<instance part="T_FOUR" gate="G$1" x="165.1" y="-93.98"/>
 <instance part="R1" gate="G$1" x="76.2" y="-104.14" rot="R90"/>
 <instance part="R2" gate="G$1" x="88.9" y="-104.14" rot="R90"/>
 <instance part="R3" gate="G$1" x="101.6" y="-104.14" rot="R90"/>
@@ -5835,7 +5835,7 @@ naming: default grid - extended grid/package width</description>
 <instance part="U3" gate="A" x="38.1" y="-68.58"/>
 <instance part="PCB1" gate="G$1" x="-58.42" y="12.7" rot="R270"/>
 <instance part="C1" gate="G$1" x="-25.4" y="60.96" rot="R90"/>
-<instance part="LED1" gate="G$1" x="76.2" y="-147.32"/>
+<instance part="T_EIGHT" gate="G$1" x="76.2" y="-147.32"/>
 <instance part="LED2" gate="G$1" x="88.9" y="-147.32"/>
 <instance part="LED3" gate="G$1" x="101.6" y="-147.32"/>
 <instance part="LED4" gate="G$1" x="114.3" y="-147.32"/>
@@ -5891,23 +5891,23 @@ naming: default grid - extended grid/package width</description>
 <junction x="127" y="-99.06"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="T_TWELVE" class="0">
 <segment>
-<pinref part="LED22" gate="G$1" pin="C"/>
+<pinref part="T_TWELVE" gate="G$1" pin="C"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <junction x="139.7" y="-99.06"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LED23" gate="G$1" pin="C"/>
+<pinref part="T_SIX" gate="G$1" pin="C"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <junction x="152.4" y="-99.06"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="LED24" gate="G$1" pin="C"/>
+<pinref part="T_FOUR" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <junction x="165.1" y="-99.06"/>
 </segment>
@@ -6240,7 +6240,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U3" gate="A" pin="QC"/>
 <wire x1="55.88" y1="-66.04" x2="53.34" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="LED22" gate="G$1" pin="A"/>
+<pinref part="T_TWELVE" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-66.04" x2="139.7" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-66.04" x2="139.7" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="55.88" y="-66.04"/>
@@ -6251,7 +6251,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U3" gate="A" pin="QB"/>
 <wire x1="55.88" y1="-63.5" x2="53.34" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="LED23" gate="G$1" pin="A"/>
+<pinref part="T_SIX" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-63.5" x2="152.4" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="-63.5" x2="152.4" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="55.88" y="-63.5"/>
@@ -6262,7 +6262,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U3" gate="A" pin="QA"/>
 <wire x1="55.88" y1="-60.96" x2="53.34" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="LED24" gate="G$1" pin="A"/>
+<pinref part="T_FOUR" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-60.96" x2="165.1" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-60.96" x2="165.1" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="55.88" y="-60.96"/>
@@ -6441,7 +6441,7 @@ naming: default grid - extended grid/package width</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="T_EIGHT" gate="G$1" pin="C"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <junction x="76.2" y="-152.4"/>
 </segment>
@@ -6717,7 +6717,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U4" gate="A" pin="QH"/>
 <wire x1="55.88" y1="-132.08" x2="53.34" y2="-132.08" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="T_EIGHT" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-132.08" x2="76.2" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-132.08" x2="76.2" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="55.88" y="-132.08"/>
