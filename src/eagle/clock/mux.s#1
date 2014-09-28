@@ -5910,48 +5910,56 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R17" gate="G$1" pin="2"/>
+<junction x="76.2" y="25.4"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R18" gate="G$1" pin="2"/>
+<junction x="88.9" y="25.4"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="R19" gate="G$1" pin="2"/>
+<junction x="101.6" y="25.4"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <pinref part="R20" gate="G$1" pin="2"/>
+<junction x="114.3" y="25.4"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="LED5" gate="G$1" pin="C"/>
 <pinref part="R21" gate="G$1" pin="2"/>
+<junction x="127" y="25.4"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="LED6" gate="G$1" pin="C"/>
 <pinref part="R22" gate="G$1" pin="2"/>
+<junction x="139.7" y="25.4"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="LED7" gate="G$1" pin="C"/>
 <pinref part="R23" gate="G$1" pin="2"/>
+<junction x="152.4" y="25.4"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="C"/>
 <pinref part="R24" gate="G$1" pin="2"/>
+<junction x="165.1" y="25.4"/>
 </segment>
 </net>
 <net name="N$26" class="0">
