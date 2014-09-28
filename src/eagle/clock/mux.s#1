@@ -6456,6 +6456,12 @@ naming: default grid - extended grid/package width</description>
 <junction x="20.32" y="-93.98"/>
 </segment>
 </net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="RCLK"/>
+<junction x="20.32" y="45.72"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
