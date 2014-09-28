@@ -5630,12 +5630,14 @@ naming: default grid - extended grid/package width</description>
 <sheet>
 <plain>
 <wire x1="20.32" y1="60.96" x2="-7.62" y2="60.96" width="0.1524" layer="93"/>
-<wire x1="-7.62" y1="60.96" x2="-7.62" y2="-2.54" width="0.1524" layer="93"/>
+<wire x1="-7.62" y1="60.96" x2="-7.62" y2="50.8" width="0.1524" layer="93"/>
+<wire x1="-7.62" y1="50.8" x2="-7.62" y2="-2.54" width="0.1524" layer="93"/>
 <wire x1="-7.62" y1="-2.54" x2="20.32" y2="-2.54" width="0.1524" layer="93"/>
 <wire x1="0" y1="-48.26" x2="-116.84" y2="-48.26" width="0.1524" layer="93"/>
 <wire x1="-116.84" y1="-48.26" x2="-116.84" y2="10.16" width="0.1524" layer="93"/>
 <wire x1="-116.84" y1="10.16" x2="-81.28" y2="10.16" width="0.1524" layer="93"/>
-<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-78.74" width="0.1524" layer="93"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-12.7" width="0.1524" layer="93"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-78.74" width="0.1524" layer="93"/>
 <wire x1="-7.62" y1="-78.74" x2="20.32" y2="-78.74" width="0.1524" layer="93"/>
 <wire x1="-116.84" y1="60.96" x2="-116.84" y2="15.24" width="0.1524" layer="93"/>
 <wire x1="-116.84" y1="15.24" x2="-81.28" y2="15.24" width="0.1524" layer="93"/>
@@ -5644,6 +5646,10 @@ naming: default grid - extended grid/package width</description>
 <wire x1="5.08" y1="55.88" x2="5.08" y2="38.1" width="0.1524" layer="93"/>
 <wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="93"/>
 <wire x1="20.32" y1="-83.82" x2="5.08" y2="-83.82" width="0.1524" layer="93"/>
+<wire x1="20.32" y1="50.8" x2="-7.62" y2="50.8" width="0.1524" layer="93"/>
+<wire x1="20.32" y1="-12.7" x2="-7.62" y2="-12.7" width="0.1524" layer="93"/>
+<wire x1="20.32" y1="-88.9" x2="-7.62" y2="-88.9" width="0.1524" layer="93"/>
+<wire x1="-7.62" y1="-88.9" x2="-7.62" y2="-78.74" width="0.1524" layer="93"/>
 </plain>
 <instances>
 <instance part="LED1" gate="G$1" x="76.2" y="30.48"/>
@@ -5952,6 +5958,7 @@ naming: default grid - extended grid/package width</description>
 <junction x="5.08" y="-25.4"/>
 <junction x="5.08" y="-83.82"/>
 <junction x="5.08" y="-7.62"/>
+<junction x="5.08" y="38.1"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -6293,6 +6300,24 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="3"/>
 <junction x="-22.86" y="60.96"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="~OE"/>
+<junction x="20.32" y="55.88"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="~OE"/>
+<junction x="20.32" y="-7.62"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="~OE"/>
+<junction x="20.32" y="-83.82"/>
 </segment>
 </net>
 </nets>
