@@ -4,7 +4,7 @@
 <head>
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="word-clock.css"/>
-  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="scripts/jquery-1.11.1.min.js"></script>
   <script src="app.js"></script>
 </head>
 
@@ -16,17 +16,19 @@
           <td class="active P_it">i</td>
           <td class="active P_it">t</td>
 
-          <td class="CW">c</td>
+          <td class="extra">x</td>
 
           <td class="active P_is">i</td>
           <td class="active P_is">s</td>
 
-          <td class="CW">a</td>
+          <td class="extra">x</td>
 
           <td class="active minute P_ten">t</td>
           <td class="active minute P_ten">e</td>
           <td class="active minute P_ten">n</td>
 
+          <td class="extra">x</td>
+          
           <td class="minute P_half">h</td>
           <td class="minute P_half">a</td>
           <td class="minute P_half">l</td>
@@ -34,13 +36,8 @@
         </tr>
 
         <tr>
-          <td class="minute P_quarter">q</td>
-          <td class="minute P_quarter">u</td>
-          <td class="minute P_quarter">a</td>
-          <td class="minute P_quarter">r</td>
-          <td class="minute P_quarter">t</td>
-          <td class="minute P_quarter">e</td>
-          <td class="minute P_quarter">r</td>
+          <td class="extra">x</td>
+          <td class="extra">x</td>
 
           <td class="minute P_twenty">t</td>
           <td class="minute P_twenty">w</td>
@@ -48,14 +45,17 @@
           <td class="minute P_twenty">n</td>
           <td class="minute P_twenty">t</td>
           <td class="minute P_twenty">y</td>
-        </tr>
-        <tr>
+
+          <td class="extra">x</td>
+          <td class="extra">x</td>
+
           <td class="minute P_five">f</td>
           <td class="minute P_five">i</td>
           <td class="minute P_five">v</td>
           <td class="minute P_five">e</td>
 
-          <td class="CW">s</td>
+        </tr>
+        <tr>
 
           <td class="active P_minutes">m</td>
           <td class="active P_minutes">i</td>
@@ -65,7 +65,13 @@
           <td class="active P_minutes">e</td>
           <td class="active P_minutes">s</td>
 
-          <td class="CW">i</td>
+          <td class="minute P_quarter">q</td>
+          <td class="minute P_quarter">u</td>
+          <td class="minute P_quarter">a</td>
+          <td class="minute P_quarter">r</td>
+          <td class="minute P_quarter">t</td>
+          <td class="minute P_quarter">e</td>
+          <td class="minute P_quarter">r</td>
 
         </tr>
 
@@ -75,84 +81,12 @@
           <td class="P_past">s</td>
           <td class="P_past">t</td>
 
+          <td class="extra">x</td>
+
           <td class="active P_to">t</td>
           <td class="active P_to">o</td>
 
-          <td class="CW">w</td>
-
-          <td class="hour t_one">o</td>
-          <td class="hour t_one">n</td>
-          <td class="hour t_one">e</td>
-
-          <td class="hour t_two">t</td>
-          <td class="hour t_two">w</td>
-          <td class="hour t_two">o</td>
-        </tr>
-
-        <tr>
-          <td class="hour t_three">t</td>
-          <td class="hour t_three">h</td>
-          <td class="hour t_three">r</td>
-          <td class="hour t_three">e</td>
-          <td class="hour t_three">e</td>
-
-          <td class="CW">o</td>
-          <td class="CW">l</td>
-
-          <td class="hour t_five">f</td>
-          <td class="hour t_five">i</td>
-          <td class="hour t_five">v</td>
-          <td class="hour t_five">e</td>
-
-          <td class="CW">f</td>
-          <td class="CW">e</td>
-
-        </tr>
-
-        <tr>
-          <td class="active hour t_twelve">t</td>
-          <td class="active hour t_twelve">w</td>
-          <td class="active hour t_twelve">e</td>
-          <td class="active hour t_twelve">l</td>
-          <td class="active hour t_twelve">v</td>
-          <td class="active hour t_twelve">e</td>
-
-          <td class="hour t_six">s</td>
-          <td class="hour t_six">i</td>
-          <td class="hour t_six">x</td>
-
-          <td class="hour t_four">f</td>
-          <td class="hour t_four">o</td>
-          <td class="hour t_four">u</td>
-          <td class="hour t_four">r</td>
-        </tr>
-
-        <tr>
-          <td class="hour t_eight">e</td>
-          <td class="hour t_eight">i</td>
-          <td class="hour t_eight">g</td>
-          <td class="hour t_eight">h</td>
-          <td class="hour t_eight">t</td>
-
-          <td class="hour t_seven">s</td>
-          <td class="hour t_seven">e</td>
-          <td class="hour t_seven">v</td>
-          <td class="hour t_seven">e</td>
-          <td class="hour t_seven">n</td>
-
-          <td class="hour t_ten">t</td>
-          <td class="hour t_ten">e</td>
-          <td class="hour t_ten">n</td>
-        </tr>
-
-        <tr>
-          <td class="hour t_nine">n</td>
-          <td class="hour t_nine">i</td>
-          <td class="hour t_nine">n</td>
-          <td class="hour t_nine">e</td>
-
-          <td>t</td>
-          <td>j</td>
+          <td class="extra">x</td>
 
           <td class="hour t_eleven">e</td>
           <td class="hour t_eleven">l</td>
@@ -160,14 +94,91 @@
           <td class="hour t_eleven">v</td>
           <td class="hour t_eleven">e</td>
           <td class="hour t_eleven">n</td>
+        </tr>
 
-          <td>r</td>
+        <tr>
+
+          <td class="hour t_three">t</td>
+          <td class="hour t_three">h</td>
+          <td class="hour t_three">r</td>
+          <td class="hour t_three">e</td>
+          <td class="hour t_three">e</td>
+
+          <td class="extra">x</td>
+          <td class="extra">x</td>
+          <td class="extra">x</td>
+
+          <td class="active hour t_twelve">t</td>
+          <td class="active hour t_twelve">w</td>
+          <td class="active hour t_twelve">e</td>
+          <td class="active hour t_twelve">l</td>
+          <td class="active hour t_twelve">v</td>
+          <td class="active hour t_twelve">e</td>
+        </tr>
+
+        <tr>
+
+          <td class="extra">x</td>
+
+          <td class="hour t_two">t</td>
+          <td class="hour t_two">w</td>
+          <td class="hour t_two">o</td>
+
+          <td class="extra">x</td>
+
+          <td class="hour t_four">f</td>
+          <td class="hour t_four">o</td>
+          <td class="hour t_four">u</td>
+          <td class="hour t_four">r</td>
+
+          <td class="hour t_eight">e</td>
+          <td class="hour t_eight">i</td>
+          <td class="hour t_eight">g</td>
+          <td class="hour t_eight">h</td>
+          <td class="hour t_eight">t</td>
+        </tr>
+
+        <tr>
+          <td class="hour t_six">s</td>
+          <td class="hour t_six">i</td>
+          <td class="hour t_six">x</td>
+
+          <td class="hour t_ten">t</td>
+          <td class="hour t_ten">e</td>
+          <td class="hour t_ten">n</td>
+
+          <td class="hour t_one">o</td>
+          <td class="hour t_one">n</td>
+          <td class="hour t_one">e</td>
+
+          <td class="hour t_seven">s</td>
+          <td class="hour t_seven">e</td>
+          <td class="hour t_seven">v</td>
+          <td class="hour t_seven">e</td>
+          <td class="hour t_seven">n</td>
+
+        </tr>
+
+        <tr>
+          <td class="hour t_five">f</td>
+          <td class="hour t_five">i</td>
+          <td class="hour t_five">v</td>
+          <td class="hour t_five">e</td>
+
+          <td class="hour t_nine">n</td>
+          <td class="hour t_nine">i</td>
+          <td class="hour t_nine">n</td>
+          <td class="hour t_nine">e</td>
+
+          <td class="active P_oclock">o</td>
+          <td class="active P_oclock">c</td>
+          <td class="active P_oclock">l</td>
+          <td class="active P_oclock">o</td>
+          <td class="active P_oclock">c</td>
+          <td class="active P_oclock">k</td>
         </tr>
       </table>
     </div>
   </div>
-  <label for="CW">Press and hold<button id="CW">CASI WOLFE</button></label>
-  <button id="hour">Add hour</button>
-  <button id="minute">Add minute</button>
 </body>
 </html>
