@@ -36,6 +36,8 @@ $(function() {
     $('td.CW').removeClass('active');
   });
 
+  function addHour() {}
+
   $('button#hour').click(addHour);
 
   $('button#minute').click(addMinute);
