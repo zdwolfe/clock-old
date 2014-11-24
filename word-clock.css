@@ -10,9 +10,8 @@ table#world-clock {
 }
 
 table#world-clock td {
-  font-family: 'Courier';
-  font-size: 24pt;
-  width: 20;
+  font-family: 'Monospace';
+  font-size: 12pt;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
